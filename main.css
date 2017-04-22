@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|Quicksand');
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	font-family: Quicksand, Helvetica, Arial, sans-serif;
+	font-weight: 400;
+}
+
+.strip {
+	width: 100%;
+}
+
+.inner {
+	padding: 0px 50px;
+	padding-bottom: 15px;
+	display: inline-block;
+	background: rgb(37, 142, 204);
+	width: 100%;
+}
+
+#Welcome {
+	font-family: 'Merriweather Sans';
+}
+
+
+h2 {
+	font-family: 'Merriweather Sans';
+	text-align: center;
+}
+
+
+.inner img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border: 2px solid #ffffff;
+}
+
+.intro-text h1,
+.tagline h2 {
+	color: white;
+	text-align: center;
+}
+
+.tagline h2 {
+	font-size: 160%;
+	background-color: rgb(26, 102, 146);
+	display: inline-block;
+	padding: 14px 36px;
+	margin-top: 0;
+}
+
+.centered {
+	text-align: center;
+}
+
+.container-fluid {
+	width: 85%;
+	max-width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.container-text {
+	font-size: 120%;
+	text-align: justify;
+}
+
+.progress {
+	background-color: rgb(50, 50, 50);
+	height: 30px;
+	margin-bottom: 20px;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+}
+
+.progress-bar {
+	line-height: 30px;
+	font-size: 114%;
+	text-align: left;
+	background-color: rgb(79, 79, 79);
+}
+
+.bar-text span {
+	padding: 40px 15px;
+}
+
+.card-img-top {
+	width: 100%;
+}
+
+.card {
+	background: rgb(37, 142, 204);
+}
+
+.card-block {
+	padding: 13px 15px;
+	color: white;
+}
+
+a.btn.btn-primary {
+	background: rgb(26, 102, 146);
+	border: 0;
+	width: 100%;
+	padding: 9px;
+	border-radius: 0;
+}
+
+a.btn.btn-primary:hover,
+a.btn.btn-primary:visited,
+a.btn.btn-primary:active {
+	background: rgb(26, 102, 146);
+	border: 0;
+}
+
+.card h4 {
+	font-size: 130%;
+}
+
+button.btn.btn-primary {
+	border-radius: 0;
+}
+
+.form-group input {
+	background: rgb(255, 255, 255);
+	color: black;
+	width: 100%;
+}
+
+.form-group textarea {
+	background: rgb(255, 255, 255);
+	outline: 0;
+	resize: none;
+}
+
+input {
+	border: none !important;
+	outline: none;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+#submit {
+	background: rgb(37, 142, 204);
+	color: white;
+	padding: 6px 40px;
+	outline: 0;
+	font-size: 120%;
+	border: 0 !important;
+}
+
+.form-control {
+	position: relative;
+	left: 0;
+}
+
+.form-control::-webkit-input-placeholder {
+	/* WebKit, Blink, Edge */
+	color: black;
+}
+
+.form-control:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: black;
+	opacity: 1;
+}
+
+.form-control::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: black;
+	opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: black;
+}
+
+@media screen and (max-width: 992px) {
+	.whitespace {
+		height: 15px;
+	}
+	#submit {
+		width: 100%;
+	}
+}
+
+#myform {
+	border: 0.1em solid black;
+}
+
+.fa.fa-angellist.fa-3x {
+	margin: 7px;
+	
+}
+
+
+.fa.fa-linkedin.fa-3x {
+  left: 0;
+}
+.fa.fa-linkedin.fa-3x:hover{
+  color:white;
+}
+.fa.fa-github.fa-3x:hover{
+  color:white;
+}
+.fa.fa-angellist.fa-3x:hover{
+  color:white;
+}
